@@ -85,7 +85,7 @@
 
 	<script>
 		function stall() {
-			setTimeout(showPage, 3000);
+			setTimeout(showPage, 0);
 		}
 
 		function showPage() {
@@ -174,13 +174,13 @@
 			TODO
 		</div>
 		<div id="buttons">
-			<button id="downloadbutton">Download Summary</button>
+			<br><button id="downloadbutton">Download Summary</button><br><br>
 			<form action="main.html">
 				<button id="backtomain">Input Another EULA</button>
-			</form>
+			</form><br>
 			<form action="index.html">
 				<button id="backtohome">Back to Home</button>
-			</form>
+			</form><br>
 			<button id="reportbutton" onclick="reportIssue()">Report an Issue</button>
 		</div>
 	</div>
