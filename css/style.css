@@ -32,6 +32,7 @@
 textarea {
   width: 50%;
   height: 200px;
+  
 }
 
 .input ul {
@@ -39,8 +40,8 @@ textarea {
   margin-bottom: 1em;
 }
 
-.input form {
-  text-align: right;
+#analyze {
+  text-align: center;
 }
 
 .centered {
