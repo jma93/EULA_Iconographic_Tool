@@ -26,17 +26,22 @@
 }
 
 .input {
-  margin: 0 4em 0 4em;
+  margin: 0 4em 0 1em;
 }
 
 textarea {
   width: 50%;
   height: 200px;
+  
 }
 
 .input ul {
   margin-left: 25%;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
+}
+
+#analyze {
+  text-align: center;
 }
 
 .centered {
@@ -97,10 +102,17 @@ footer {
   border: 1px solid black;
 }
 
+#buttons button, form {
+  display: inline-block;
+  margin-top: 10vh;
+}
+
 #result {
   text-align: center;
   margin: 0 auto;
 }
+
+
 
 #input-buttons button, form {
   display: inline-block;
@@ -110,8 +122,8 @@ footer {
 
 #icongrid {
   margin: 0 auto;
-  width: 30vw; 
-  height:50vh; 
+  width: 75vw; 
+  height:70vh; 
   overflow:auto;
   border: 1px solid black;
 }
@@ -119,20 +131,24 @@ footer {
 
 td {
   width: 50vw;
-  height: 25vh;
+  height: 35vh;
   text-align: center;
+  border-top:1px solid black;
+  border-bottom:1px solid black;
+  font-size: 20px;
 }
 
 #footer {
-  position: fixed;
   width: 90%;
-  bottom: 0;
   margin-left: 2em;
   margin-bottom: 2em;
 }
 
 #feedback {
   text-align: right;
+}
+#addIcon {
+  text-align:right;
 }
 
 #content {
@@ -184,6 +200,15 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Work Sans", Arial, sans-serif;
   font-weight: 300;
   margin: 0 0 30px 0;
+  font-size:30px;
+}
+
+h7 {
+  color: #000;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-weight: 300;
+  margin: 0 0 30px 0;
+  font-size:20px;
 }
 
 ::-webkit-selection {

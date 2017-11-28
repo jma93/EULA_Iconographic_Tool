@@ -103,6 +103,7 @@
 			});
 		})
 
+
 		function reportIssue() {
 			$('#reportbox').dialog({
 				modal:true,
@@ -272,22 +273,25 @@
 				File Input (.doc, .docx, .pdf, .txt):<input type="file" id="file-input" accept=".doc, .docx, .pdf, .txt">
 			</li>
 			<li>
-				Text Input:<br><textarea id="text-input" placeholder="Type or copy EULA text here"></textarea>
+				<div id="wrapper">
+					Text Input:<br><textarea id="text-input" placeholder="Type or copy EULA text here"></textarea>
+					<div id="analyze">
+						<form action="result.html">
+							<button id="analyzebutton">Analyze</button>
+						</form>
+					</div>
+				</div>
 			</li>
-		</ul>
+		</ul>	
 		
 	</div>
 	
-	<div class="centered">
-		<form action="result.html">
-			<button id="analyzebutton">Analyze</button>
-		</form>
-	</div>
+	
 	<div id="reportbox"></div>
 	
 	<footer class="footer">
 		<div class="footer-buttons">
-			<button id="backbutton" onclick="goBack()">Back</button>
+			<form action="index.html"><button id="backbutton" onclick="goBack()">Back</button></form>
 			<button id="reportbutton" onclick="reportIssue()">Report an Issue </button>
 			<button id="helpbutton" onclick="">Help</button>
 		</div>
