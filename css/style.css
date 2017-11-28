@@ -151,6 +151,12 @@ td {
   text-align:right;
 }
 
+#content {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
 
 /* Template code */
 body {
