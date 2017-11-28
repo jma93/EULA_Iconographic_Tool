@@ -85,10 +85,7 @@
 
 
 	<script>
-		function goBack() {
-			window.history.back();
-		}
-
+		
 		function reportIssue() {
 			$('#reportbox').load('report.html #content').dialog({
 				modal:true,
@@ -260,9 +257,7 @@
 			</li>
 		</ul>
 		
-	</div>
 	
-	<div class="centered">
 		<form action="result.html">
 			<button id="analyzebutton">Analyze</button>
 		</form>
@@ -271,7 +266,7 @@
 	
 	<footer class="footer">
 		<div class="footer-buttons">
-			<button id="backbutton" onclick="goBack()">Back</button>
+			<form action="index.html"><button id="backbutton" onclick="goBack()">Back</button></form>
 			<button id="reportbutton" onclick="reportIssue()">Report an Issue </button>
 			<button id="helpbutton" onclick="">Help</button>
 		</div>
