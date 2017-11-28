@@ -121,9 +121,8 @@ footer {
 
 #icongrid {
   margin: 0 auto;
-  width:90vw; 
-  height:50vh; 
-
+  width: 75vw; 
+  height:70vh; 
   overflow:auto;
   border: 1px solid black;
 }
